@@ -1,0 +1,24 @@
+{
+	"name": "SubnetCalc",
+	"version": "4.1.1",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Oblivious"
+	],
+	"url": "https://sourceforge.net/projects/subntcalc/",
+	"descriptionmsg": "subnetcalc-desc",
+	"type": "bluespice",
+	"AutoloadNamespaces": {
+		"SubnetCalc\\": "src/"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "\\SubnetCalc\\Hook\\ParserFirstCallInit\\SetParserHook::onParserFirstCallInit"
+	},
+	"MessagesDirs": {
+		"SubnetCalc": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader": true
+}
