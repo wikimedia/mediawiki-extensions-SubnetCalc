@@ -1,3 +1,8 @@
 {
-  "subnetcalc-desc": "Extension description"
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"subnetcalc-desc": "Extension description.\n\n[https://sourceforge.net/projects/subntcalc/ PHP Subnet Calculator] is a third-party open source project and its name probably should not be translated."
 }

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"subnetcalc-desc": "SubnetCalc basiert größtenteils auf dem Open-Source-Code von PHP Subnet Calculator"
+}
