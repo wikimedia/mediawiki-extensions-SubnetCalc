@@ -12,7 +12,12 @@
 		"SubnetCalc\\": "src/"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": "\\SubnetCalc\\Hook\\ParserFirstCallInit\\SetParserHook::onParserFirstCallInit"
+		"ParserFirstCallInit": "setParserHook"
+	},
+	"HookHandlers": {
+		"setParserHook": {
+			"class": "SubnetCalc\\Hook\\ParserFirstCallInit\\SetParserHook"
+		}
 	},
 	"MessagesDirs": {
 		"SubnetCalc": [
