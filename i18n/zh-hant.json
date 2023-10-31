@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"subnetcalc-desc": "SubnetCalc 是主要基於開放原始碼 PHP Subnet Calculator 的程式碼"
+}
