@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"subnetcalc-desc": "SubnetCalc er for det meste basert på den åpne kildekoden til PHP Subnet Calculator"
+}
