@@ -5,8 +5,5 @@
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
-	"globals": {
-	},
-	"rules": {
-	}
+	"rules": {}
 }
