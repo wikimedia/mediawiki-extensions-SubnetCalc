@@ -87,7 +87,8 @@ class SubnetCalc {
 			$bin_first = "N/A";
 			$bin_last = "N/A";
 			$host_total = "N/A";
-			if ( $bin_net === $bin_bcast ) { $bin_bcast = "N/A";
+			if ( $bin_net === $bin_bcast ) {
+				$bin_bcast = "N/A";
 			}
 		}
 
@@ -193,7 +194,8 @@ class SubnetCalc {
 		$binin = rtrim( $binin, "0" );
 		if ( !preg_match( "0", $binin ) ) {
 			return str_pad( str_replace( "1", "0", $binin ), 32, "1" );
-		} else { return "1010101010101010101010101010101010101010";
+		} else {
+			return "1010101010101010101010101010101010101010";
 		}
 	}
 
@@ -212,7 +214,8 @@ class SubnetCalc {
 	 * @return mixed|string
 	 */
 	private function bintodq( $binin ) {
-		if ( $binin == "N/A" ) { return $binin;
+		if ( $binin == "N/A" ) {
+			return $binin;
 		}
 		$binin = explode( ".", chunk_split( $binin, 8, "." ) );
 		for ( $i = 0; $i < 4; $i++ ) {
@@ -239,7 +242,8 @@ class SubnetCalc {
 		$binin = rtrim( $binin, "1" );
 		if ( !preg_match( "1", $binin ) ) {
 			return str_pad( str_replace( "0", "1", $binin ), 32, "0" );
-		} else { return "1010101010101010101010101010101010101010";
+		} else {
+			return "1010101010101010101010101010101010101010";
 		}
 	}
 
@@ -260,7 +264,8 @@ class SubnetCalc {
 	 */
 	private function dotbin( $binin, $cdr_nmask ) {
 		// splits 32 bit bin into dotted bin octets
-		if ( $binin == "N/A" ) { return $binin;
+		if ( $binin == "N/A" ) {
+			return $binin;
 		}
 		$oct = rtrim( chunk_split( $binin, 8, "." ), "." );
 		if ( $cdr_nmask > 0 ) {
