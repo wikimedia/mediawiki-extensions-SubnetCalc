@@ -8,6 +8,9 @@
 	"url": "https://sourceforge.net/projects/subntcalc/",
 	"descriptionmsg": "subnetcalc-desc",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
 	"AutoloadNamespaces": {
 		"SubnetCalc\\": "src/"
 	},
