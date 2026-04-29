@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"subnetcalc-desc": "SubnetCalc는 대부분 오픈 소스인 PHP Subnet Calculator의 코드를 기반으로 합니다"
+}
